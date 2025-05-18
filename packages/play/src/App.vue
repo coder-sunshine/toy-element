@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <er-button />
+  <toy-button />
 </template>
 
 <style scoped>

@@ -7,7 +7,7 @@
     "dev": "pnpm --filter @toy-element/play dev",
     "docs:dev": "pnpm --filter @toy-element/docs dev",
     "docs:build": "pnpm --filter @toy-element/docs build",
-    "test": "echo 'todo'"
+    "test": "pnpm --filter @toy-element/components test"
   },
   "keywords": [],
   "author": "",
@@ -35,5 +35,8 @@
     "@toy-element/hooks": "workspace:*",
     "@toy-element/utils": "workspace:*",
     "@toy-element/theme": "workspace:*"
+  },
+  "volta": {
+    "node": "18.17.0"
   }
 }
